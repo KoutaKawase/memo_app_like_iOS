@@ -7,11 +7,23 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="iOS風メモ帳です">
     <title>iOS風メモ帳</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
-    <script src="js/memo.js"></script>
+    <div class="wrap">
+        <header>
+            <h2 id="title">メモ帳</h2>
+            <div id="button-area">
+                <button type="button"><a href="./addMemo.html">追加</a></button>
+            </div>
+        </header>
+        <div id="memo-index">
+            <ul id="memo-list">
+            </ul>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
 </body>
 
 </html>

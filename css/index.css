@@ -1,0 +1,35 @@
+.wrap {
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    border: solid 1px black;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: solid 1px black;
+}
+
+#button-area {
+    margin-right: 20px;
+    margin-top: 25px;
+}
+
+#title {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.index {
+    margin-bottom: 30px;
+    display: flex;
+}
+
+a:hover{
+  color : #ff7043;
+}

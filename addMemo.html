@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="メモ追加ページ">
+    <title>メモを追加</title>
+</head>
+
+<body>
+    <dl>
+        <dt>
+            <label for="word">ワード</label>
+        </dt>
+        <dd>
+            <input type="text" id="word" required>
+        </dd>
+        <dt>
+            <label for="content">意味</label>
+        </dt>
+        <dd>
+            <textarea id="content" cols="30" rows="10"></textarea>
+        </dd>
+    </dl>
+    <button type="button" id="save">保存</button>
+    <button type="button" id="clear">クリア</button>
+    <p id="save-info-area"></p>
+    <a href="./index.html">HOME</a>
+    <script src="js/addMemo.js"></script>
+</body>
+
+</html>
